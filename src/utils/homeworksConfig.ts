@@ -84,6 +84,14 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: '“Контекст теми та користувача”',
     tags: ['Context API', 'React', 'оптимізація'],
   },
+  {
+    id: '12',
+    path: '/homeworks/12',
+    title: 'Router',
+    description:
+      'React Router (пара 24) - закріпити навички роботи з базовими маршрутами, посиланнями та 404-сторінкою',
+    tags: ['Router', 'React', 'оптимізація'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {
