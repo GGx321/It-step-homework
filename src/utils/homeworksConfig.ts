@@ -63,6 +63,13 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: '“Калькулятор оцінки фільму”',
     tags: ['підняття стейту', 'калькулятор', 'фільм'],
   },
+  {
+    id: '9',
+    path: '/homeworks/9',
+    title: 'useRef',
+    description: '“Таймер з useRef”',
+    tags: ['useRef', 'таймер', 'React'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {

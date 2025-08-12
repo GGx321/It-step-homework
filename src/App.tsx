@@ -19,6 +19,7 @@ function App() {
     Homework6,
     Homework7,
     Homework8,
+    Homework9,
   } = homeworks;
   return (
     <div className="min-h-screen bg-gray-50">
@@ -36,6 +37,7 @@ function App() {
         <Route path="/homeworks/6" element={<Homework6 />} />
         <Route path="/homeworks/7" element={<Homework7 />} />
         <Route path="/homeworks/8" element={<Homework8 />} />
+        <Route path="/homeworks/9" element={<Homework9 />} />
         <Route path="/classes" element={<Classes />} />
         <Route
           path="*"
