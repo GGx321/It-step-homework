@@ -35,6 +35,13 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: 'Комбінування useState + події + робота с формами',
     tags: ['useState', 'форми', 'події'],
   },
+  {
+    id: '5',
+    path: '/homeworks/5',
+    title: 'debounce',
+    description: 'React + useEffect + debounce',
+    tags: ['debounce', 'оптимізація', 'події'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {
