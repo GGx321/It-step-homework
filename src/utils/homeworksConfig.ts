@@ -21,6 +21,13 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: ' Мініпроєкт “Інтерактивні компоненти”',
     tags: ['useState', 'обработчики событий'],
   },
+  {
+    id: '3',
+    path: '/homeworks/3',
+    title: 'useEffect, api request',
+    description: 'useEffect — основи, useEffect + fetch',
+    tags: ['useEffect', 'api', 'контекст'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {
