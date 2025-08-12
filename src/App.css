@@ -1,0 +1,8 @@
+@layer components {
+  .block {
+    @apply flex rounded-lg bg-white p-6 shadow-md;
+  }
+  .app-container {
+    @apply mx-auto max-w-screen-lg;
+  }
+}
