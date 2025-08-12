@@ -28,6 +28,13 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: 'useEffect — основи, useEffect + fetch',
     tags: ['useEffect', 'api', 'контекст'],
   },
+  {
+    id: '4',
+    path: '/homeworks/4',
+    title: 'useState для форм, практика',
+    description: 'Комбінування useState + події + робота с формами',
+    tags: ['useState', 'форми', 'події'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {

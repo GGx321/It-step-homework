@@ -6,3 +6,6 @@
     @apply mx-auto max-w-screen-lg;
   }
 }
+
+@tailwind utilities;
+@reference "tailwindcss";
