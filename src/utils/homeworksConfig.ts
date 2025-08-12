@@ -56,6 +56,13 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: 'Створення та обробка форм у React',
     tags: ['форми', 'валідація', 'React'],
   },
+  {
+    id: '8',
+    path: '/homeworks/8',
+    title: 'Підняття стейту',
+    description: '“Калькулятор оцінки фільму”',
+    tags: ['підняття стейту', 'калькулятор', 'фільм'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {
