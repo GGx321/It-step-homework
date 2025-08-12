@@ -6,6 +6,7 @@ import Homeworks from './pages/Homeworks';
 import Classes from './pages/Classes';
 import Homework1 from './homeworks/1';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer />
     </div>
   );
 }
