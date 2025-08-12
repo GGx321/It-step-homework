@@ -49,6 +49,13 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: 'Списки і ключі (на прикладі рецептів)',
     tags: ['фільтри', 'списки', 'ключі'],
   },
+  {
+    id: '7',
+    path: '/homeworks/7',
+    title: 'Робота з формами',
+    description: 'Створення та обробка форм у React',
+    tags: ['форми', 'валідація', 'React'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {

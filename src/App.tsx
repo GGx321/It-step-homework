@@ -9,8 +9,15 @@ import './App.css';
 import Footer from './components/Footer';
 
 function App() {
-  const { Homework1, Homework2, Homework3, Homework4, Homework5, Homework6 } =
-    homeworks;
+  const {
+    Homework1,
+    Homework2,
+    Homework3,
+    Homework4,
+    Homework5,
+    Homework6,
+    Homework7,
+  } = homeworks;
   return (
     <div className="min-h-screen bg-gray-50">
       <Navigation />
@@ -24,6 +31,7 @@ function App() {
         <Route path="/homeworks/4" element={<Homework4 />} />
         <Route path="/homeworks/5" element={<Homework5 />} />
         <Route path="/homeworks/6" element={<Homework6 />} />
+        <Route path="/homeworks/7" element={<Homework7 />} />
         <Route path="/classes" element={<Classes />} />
         <Route
           path="*"
