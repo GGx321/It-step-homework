@@ -10,9 +10,16 @@ export const homeworksConfig: HomeworkConfig[] = [
   {
     id: '1',
     path: '/homeworks/1',
-    title: 'Props, Children, Условный рендеринг, Списки',
+    title: 'Практика',
     description: 'Повторениие',
     tags: ['Повторение', 'Children', 'Условный рендеринг', 'Списки'],
+  },
+  {
+    id: '2',
+    path: '/homeworks/2',
+    title: 'useState, обробники подій',
+    description: ' Мініпроєкт “Інтерактивні компоненти”',
+    tags: ['useState', 'обработчики событий'],
   },
 ];
 

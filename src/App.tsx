@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Homeworks from './pages/Homeworks';
 import Classes from './pages/Classes';
 import Homework1 from './homeworks/1';
+import Homework2 from './homeworks/2';
 import './App.css';
 import Footer from './components/Footer';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/homeworks" element={<Homeworks />} />
         <Route path="/homeworks/1" element={<Homework1 />} />
+        <Route path="/homeworks/2" element={<Homework2 />} />
         <Route path="/classes" element={<Classes />} />
         <Route
           path="*"
