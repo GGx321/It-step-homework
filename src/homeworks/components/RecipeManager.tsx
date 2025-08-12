@@ -62,7 +62,7 @@ export default function RecipeManager() {
   return (
     <div className="space-y-6">
       {/* Форма добавления рецепта */}
-      <Block className="block">
+      <Block isBlock>
         <h3 className="mb-4 text-lg font-semibold">
           Завдання 2: Додати новий рецепт
         </h3>
@@ -113,7 +113,7 @@ export default function RecipeManager() {
       </Block>
 
       {/* Управление списком */}
-      <Block className="block">
+      <Block isBlock>
         <h3 className="mb-4 text-lg font-semibold">
           Завдання 3-4: Сортування та перемішування
         </h3>
@@ -140,7 +140,7 @@ export default function RecipeManager() {
       </Block>
 
       {/* Список рецептов */}
-      <Block className="block">
+      <Block isBlock>
         <h3 className="mb-4 text-lg font-semibold">
           Завдання 1: Список рецептів
         </h3>

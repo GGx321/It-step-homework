@@ -95,7 +95,7 @@ export default function Timer() {
   return (
     <div className="space-y-6">
       {/* Заголовок */}
-      <Block className="block">
+      <Block isBlock>
         <h2 className="mb-4 text-xl font-bold">
           Домашнє завдання 9: useRef та інтервали
         </h2>
@@ -105,7 +105,7 @@ export default function Timer() {
       </Block>
 
       {/* Основной таймер */}
-      <Block className="block">
+      <Block isBlock>
         <div className="text-center">
           <h3 className="mb-6 text-lg font-semibold">⏱️ Таймер</h3>
 

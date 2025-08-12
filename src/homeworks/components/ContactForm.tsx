@@ -156,7 +156,7 @@ export default function ContactForm() {
   return (
     <div className="space-y-6">
       {/* Заголовок */}
-      <Block className="block">
+      <Block isBlock>
         <h2 className="mb-4 text-xl font-bold">
           Домашнє завдання 7: Форма зв'язку
         </h2>
@@ -166,7 +166,7 @@ export default function ContactForm() {
       </Block>
 
       {/* Форма */}
-      <Block className="block">
+      <Block isBlock>
         <h3 className="mb-4 text-lg font-semibold">Форма зв'язку</h3>
 
         {/* Сообщение об успехе */}
