@@ -77,6 +77,13 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: '“Оптимізація компонентів з useMemo”',
     tags: ['useMemo', 'оптимізація', 'React'],
   },
+  {
+    id: '11',
+    path: '/homeworks/11',
+    title: '“Context API”',
+    description: '“Контекст теми та користувача”',
+    tags: ['Context API', 'React', 'оптимізація'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {
