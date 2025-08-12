@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Breadcrumbs from './components/Breadcrumbs';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Homeworks from './pages/Homeworks';
 import Classes from './pages/Classes';
@@ -20,6 +21,7 @@ function App() {
   } = homeworks;
   return (
     <div className="min-h-screen bg-gray-50">
+      <ScrollToTop />
       <Navigation />
       <Breadcrumbs />
       <Routes>
