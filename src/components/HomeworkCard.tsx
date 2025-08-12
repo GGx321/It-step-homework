@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 interface HomeworkCardProps {
   title: string;
   description: string;
+  date?: string;
   to: string;
   tags: string[];
 }
@@ -10,6 +11,7 @@ interface HomeworkCardProps {
 export default function HomeworkCard({
   title,
   description,
+  date,
   to,
   tags,
 }: HomeworkCardProps) {
@@ -36,17 +38,25 @@ export default function HomeworkCard({
         </Link>
       </h2>
       <p className="mb-3 text-gray-600">{description}</p>
-      <div className="flex flex-wrap gap-2">
-        {tags.map((tag, index) => (
-          <span
-            key={tag}
-            className={`rounded px-2 py-1 text-sm ${
-              tagColors[index % tagColors.length]
-            }`}
-          >
-            {tag}
+      <div className="flex justify-between">
+        <div className="flex flex-wrap gap-2">
+          {tags.map((tag, index) => (
+            <span
+              key={tag}
+              className={`rounded px-2 py-1 text-sm ${
+                tagColors[index % tagColors.length]
+              }`}
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+
+        {date ? (
+          <span className="rounded bg-gray-100 px-2 py-1 text-sm text-gray-800">
+            {date}
           </span>
-        ))}
+        ) : null}
       </div>
     </div>
   );

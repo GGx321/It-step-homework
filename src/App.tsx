@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound';
 import homeworks from './homeworks/index';
 import './App.css';
 import Footer from './components/Footer';
+import classes from './classes/index';
 
 function App() {
   const {
@@ -25,6 +26,7 @@ function App() {
     Homework11,
     Homework12,
   } = homeworks;
+  const { Classes1 } = classes;
   return (
     <div className="min-h-screen bg-gray-50">
       <ScrollToTop />
@@ -46,6 +48,7 @@ function App() {
         <Route path="/homeworks/11" element={<Homework11 />} />
         <Route path="/homeworks/12" element={<Homework12 />} />
         <Route path="/classes" element={<Classes />} />
+        <Route path="/classes/1" element={<Classes1 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
