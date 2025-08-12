@@ -7,6 +7,7 @@ import Homework6 from './6';
 import Homework7 from './7';
 import Homework8 from './8';
 import Homework9 from './9';
+import Homework10 from './10';
 
 const homeworks = {
   Homework1,
@@ -18,6 +19,7 @@ const homeworks = {
   Homework7,
   Homework8,
   Homework9,
+  Homework10,
 };
 
 export default homeworks;
