@@ -17,7 +17,7 @@ export default function Home() {
           новый за пол часа и забыть об этом."
         </blockquote>
       </div>
-      <Block>
+      <Block className="block">
         <h2 className="mb-4 text-2xl font-semibold text-gray-700">
           Возможности:
         </h2>
@@ -29,7 +29,7 @@ export default function Home() {
         </ul>
       </Block>
 
-      <Block>
+      <Block className="block">
         <h2 className="mb-4 text-2xl font-semibold text-gray-700">
           В будущем:
         </h2>

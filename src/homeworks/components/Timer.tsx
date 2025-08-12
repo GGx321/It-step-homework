@@ -95,7 +95,7 @@ export default function Timer() {
   return (
     <div className="space-y-6">
       {/* Заголовок */}
-      <Block>
+      <Block className="block">
         <h2 className="mb-4 text-xl font-bold">
           Домашнє завдання 9: useRef та інтервали
         </h2>
@@ -105,7 +105,7 @@ export default function Timer() {
       </Block>
 
       {/* Основной таймер */}
-      <Block>
+      <Block className="block">
         <div className="text-center">
           <h3 className="mb-6 text-lg font-semibold">⏱️ Таймер</h3>
 
@@ -184,7 +184,7 @@ export default function Timer() {
       </Block>
 
       {/* Объяснение кода */}
-      <Block className="border border-blue-200 bg-blue-50">
+      <Block className="block border border-blue-200 bg-blue-50">
         <h4 className="mb-2 font-medium text-blue-900">🔧 Реалізація:</h4>
         <ul className="space-y-1 text-sm text-blue-800">
           <li>
@@ -210,7 +210,7 @@ export default function Timer() {
       </Block>
 
       {/* Дополнительные возможности */}
-      <Block className="border border-green-200 bg-green-50">
+      <Block className="block border border-green-200 bg-green-50">
         <h4 className="mb-2 font-medium text-green-900">
           ✨ Додаткові можливості:
         </h4>

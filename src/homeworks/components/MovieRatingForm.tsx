@@ -42,7 +42,7 @@ export default function MovieRatingForm() {
   return (
     <div className="space-y-6">
       {/* Заголовок */}
-      <Block>
+      <Block className="block">
         <h2 className="mb-4 text-xl font-bold">
           Домашнє завдання 8: Передача даних між компонентами
         </h2>
@@ -52,7 +52,7 @@ export default function MovieRatingForm() {
       </Block>
 
       {/* Основная форма */}
-      <Block>
+      <Block className="block">
         <h3 className="mb-6 text-lg font-semibold">🎬 Форма оцінки фільму</h3>
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -98,7 +98,7 @@ export default function MovieRatingForm() {
       </Block>
 
       {/* Информация о компонентах */}
-      <Block className="border border-purple-200 bg-purple-50">
+      <Block className="block border border-purple-200 bg-purple-50">
         <h4 className="mb-2 font-medium text-purple-900">
           🧩 Архітектура компонентів:
         </h4>
@@ -123,7 +123,7 @@ export default function MovieRatingForm() {
       </Block>
 
       {/* UX особенности */}
-      <Block className="border border-green-200 bg-green-50">
+      <Block className="block border border-green-200 bg-green-50">
         <h4 className="mb-2 font-medium text-green-900">
           ✨ Особливості реалізації:
         </h4>

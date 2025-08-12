@@ -1,5 +1,5 @@
 @layer components {
-  .block {
+  .block-container {
     @apply flex rounded-lg bg-white p-6 shadow-md;
   }
   .app-container {

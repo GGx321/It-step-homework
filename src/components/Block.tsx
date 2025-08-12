@@ -6,9 +6,5 @@ interface BlockProps {
 }
 
 export default function Block({ children, className = '' }: BlockProps) {
-  return (
-    <div className={`block ${className}`}>
-      {children}
-    </div>
-  );
+  return <div className={`block-container ${className}`}>{children}</div>;
 }
