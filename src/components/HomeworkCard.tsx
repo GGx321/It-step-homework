@@ -19,7 +19,6 @@ export default function HomeworkCard({
   const tagColors = [
     'bg-blue-100 text-blue-800',
     'bg-green-100 text-green-800',
-    'bg-purple-100 text-purple-800',
     'bg-orange-100 text-orange-800',
     'bg-red-100 text-red-800',
     'bg-yellow-100 text-yellow-800',
@@ -53,7 +52,7 @@ export default function HomeworkCard({
         </div>
 
         {date ? (
-          <span className="rounded bg-gray-100 px-2 py-1 text-sm text-gray-800">
+          <span className="rounded bg-purple-100 px-2 py-1 text-sm font-bold text-purple-800">
             {date}
           </span>
         ) : null}
