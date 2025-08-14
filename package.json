@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "build:prod": "tsc -b && vite build",
     "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier . --write",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"

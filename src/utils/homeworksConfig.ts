@@ -92,6 +92,13 @@ export const homeworksConfig: HomeworkConfig[] = [
       'React Router (пара 24) - закріпити навички роботи з базовими маршрутами, посиланнями та 404-сторінкою',
     tags: ['Router', 'React', 'оптимізація'],
   },
+  {
+    id: '13',
+    path: '/homeworks/13',
+    title: 'Router',
+    description: '“Мінісайт про міста і локації”',
+    tags: ['Router', 'React', 'оптимізація'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {

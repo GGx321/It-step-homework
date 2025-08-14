@@ -25,6 +25,7 @@ function App() {
     Homework10,
     Homework11,
     Homework12,
+    Homework13,
   } = homeworks;
   const { Classes1 } = classes;
   return (
@@ -47,6 +48,8 @@ function App() {
         <Route path="/homeworks/10" element={<Homework10 />} />
         <Route path="/homeworks/11" element={<Homework11 />} />
         <Route path="/homeworks/12" element={<Homework12 />} />
+        <Route path="/homeworks/13" element={<Homework13 />} />
+        <Route path="/homeworks/13/*" element={<Homework13 />} />
         <Route path="/classes" element={<Classes />} />
         <Route path="/classes/1" element={<Classes1 />} />
         <Route path="*" element={<NotFound />} />
