@@ -114,6 +114,13 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: '“Context API”',
     tags: ['Context API', 'React', 'global state'],
   },
+  {
+    id: '16',
+    path: '/homeworks/16',
+    title: 'redux',
+    description: '““Список подорожей””',
+    tags: ['redux', 'React', 'global state'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {
