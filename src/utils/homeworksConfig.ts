@@ -107,6 +107,13 @@ export const homeworksConfig: HomeworkConfig[] = [
       '“Створити компонент, який завантажує та відображає дані з API, використовуючи і fetch, і axios у різних частинах застосунку.”',
     tags: ['axios', 'fetch', 'React'],
   },
+  {
+    id: '15',
+    path: '/homeworks/15',
+    title: 'global state',
+    description: '“Context API”',
+    tags: ['Context API', 'React', 'global state'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {
