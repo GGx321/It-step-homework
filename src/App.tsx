@@ -26,8 +26,9 @@ function App() {
     Homework11,
     Homework12,
     Homework13,
+    Homework14,
   } = homeworks;
-  const { Classes1 } = classes;
+  const { Classes1, Classes2, Classes3 } = classes;
   return (
     <div className="min-h-screen bg-gray-50">
       <ScrollToTop />
@@ -50,8 +51,11 @@ function App() {
         <Route path="/homeworks/12" element={<Homework12 />} />
         <Route path="/homeworks/13" element={<Homework13 />} />
         <Route path="/homeworks/13/*" element={<Homework13 />} />
+        <Route path="/homeworks/14" element={<Homework14 />} />
         <Route path="/classes" element={<Classes />} />
         <Route path="/classes/1" element={<Classes1 />} />
+        <Route path="/classes/2" element={<Classes2 />} />
+        <Route path="/classes/3" element={<Classes3 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

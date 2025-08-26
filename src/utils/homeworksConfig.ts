@@ -99,6 +99,14 @@ export const homeworksConfig: HomeworkConfig[] = [
     description: '“Мінісайт про міста і локації”',
     tags: ['Router', 'React', 'оптимізація'],
   },
+  {
+    id: '14',
+    path: '/homeworks/14',
+    title: 'axios, fetch',
+    description:
+      '“Створити компонент, який завантажує та відображає дані з API, використовуючи і fetch, і axios у різних частинах застосунку.”',
+    tags: ['axios', 'fetch', 'React'],
+  },
 ];
 
 export function getHomeworkByPath(path: string): HomeworkConfig | undefined {
